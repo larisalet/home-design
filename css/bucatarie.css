@@ -1,0 +1,442 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    font-family: 'Sitka Banner';
+    
+    font-weight: 400;
+    margin:0;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+header{
+    position:fixed;
+    width:100%;
+}
+.titlu{
+    width:100%;
+    margin:auto;
+    font-size: 45px;
+    color:#975E50;
+    text-align: center;
+    background-color: white;
+}
+.menu{
+    width:100%;
+    display: inline-block;
+    background-color: #F1EBE2;
+    text-align: center;
+    padding: 10px;
+}
+
+.menu2{
+    width:100%;
+    display: inline-block;
+    background-color: #D6D1C7;
+    text-align: center;
+    padding: 10px;
+}
+.menu-item{
+   margin-left:6px;
+    margin-right:6px;
+}
+.titlu:hover{
+    
+    text-shadow: 2px 2px 5px rgb(153, 120, 98);
+    transition-duration: 0.5s;
+
+}
+
+.menu-item:hover{
+    text-shadow: 2px 2px 5px rgb(92, 92, 92);
+    transition-duration: 0.5s;
+}
+.main-img{
+    width:100%;
+    padding-top:6%;
+}
+.text-buc{
+    width:100%;
+    padding:2%;
+    padding-left:7%;
+    padding-right: 0%;
+    margin:0;
+    float:left;
+
+}
+.text1{
+    width:100%;
+    color:#9B6A49;
+    font-size: 2.5em;
+    font-weight:bold;
+    padding-top:30px;
+}
+.text2{
+    width:100%;
+    font-size:1.35em;
+    padding-top:10px;
+    padding-bottom: 20px;
+}
+.text4{
+    width:100%;
+    font-weight: bold;
+    font-size:1.5em;
+    float:left;
+}
+.text41{
+    font-size:1.35em;
+    float: left;
+    width: 100%;
+    text-align: justify;
+}
+.imagini-tendinte{
+    width:86%;
+    margin-left:7%;
+    margin-right:7%;
+}
+.img-buc{
+    width:100%;
+    margin-bottom: 20px;
+    float: left;
+}
+.reguli-bucatarie{
+    width:86%;
+    margin-left: 7%;
+    margin-right: 7%;
+    float: left;
+}
+.text3{
+    color:#9B6A49;
+    width:100%;
+    font-size: 1.8em;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-weight: bold;
+
+}
+.box{
+    width: 100%;
+    float:left;
+    padding: 2%;
+    margin:1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container1{
+    width: 86%;
+    margin-left: 7%;
+    margin-right: 7%;
+    float:left;
+}
+.tendinte-actuale{
+    width:33%;
+    float:left;
+    padding: 3%;
+}
+.container2{
+    width:100%;
+}
+.tend-titlu{
+    width:100%;
+    margin:auto;
+    text-align: center;
+    color:#975E50;
+    font-size:1.7em;
+    font-weight: bold;
+}
+.tend-text{
+    width:100%;
+    text-align: justify;
+    font-size:1.2em;
+}
+
+.tend-imagini{
+    width:86%;
+    margin-left:7%;
+}
+
+.abonare{
+    /* background-image: url("imagini/main/imgmain3.png"); */
+    width:100%;
+    height:150px;
+    /* background-position:relative;
+    background-size:cover; */
+    padding: 3%;
+    padding-top: 4%;
+    float:left;
+}
+.text5{
+    padding-right: 0%;
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 49%;
+    text-align: center;
+    margin:auto;
+}
+
+input{
+    width:30%;
+    margin-left:31.3% ;
+    padding:0.5%;
+    float: left;
+    
+}
+button{
+    width:6%;
+    margin-left: 1%;
+    margin-right: 2%;
+    float:left;
+    padding: 0.5%;
+   
+}
+
+.social-media{
+    width:100%;
+    color:#9B6A49;
+    font-size: 1.7em;
+    text-align: center;
+    padding:4%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+footer{
+    background-color: rgb(187, 168, 150);
+    color:white;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3%;
+    vertical-align: middle;
+}
+
+
+.social-img{
+    
+    width:15%;
+    margin-left:42%;
+    margin-right:42%;
+    margin-bottom: 2%;
+}
+.img-elem{
+    width: 50%;
+}
+.img-img{
+    width:35%; 
+    float:left;
+}
+.stil-text{
+    width:65%; 
+    float:left;
+}
+.aimg:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+.img2{
+    width:31%; float:left; margin-right:3%;
+
+}
+.img3{
+    width:31%; float:left; margin-right:3%;
+}
+.img4{
+    width:31%; float:left;
+}
+@media (min-width: 481px) and (max-width:768px){
+    .main-img{
+        padding-top:17%;
+
+    }
+    .rightside{
+        margin-bottom:5%;
+    }
+    .text1{
+        font-size: 1.6em;
+    }
+    .text3{
+        font-size:0.8em;
+        
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
+    .text2, .text-text{
+        font-size: 1em;
+    }
+    .text4{
+        font-size:1.2em;
+        float:left;
+        width:100%;
+        
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
+    .text41{
+        font-size:1em;
+        float:left;
+        width:100%;
+        
+
+    }
+    .text5{
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    .tendinte-actuale{
+        width:100%;
+    }
+    .container2{
+        width:30%;
+        float:left;
+    }
+    .tend-text{
+        width:70%;
+        float:left;
+        padding: 3%;
+        font-size: 1em;
+    }
+    .social-media{
+        font-size: 1.3em;
+        margin-top: 7%;
+    }
+    .footer{
+        font-size:1em;
+        padding: 0%;
+    }
+    
+    button{
+        margin-bottom: 1%;
+        width:13%;
+    }
+    .img-elem{
+        width: 50%;
+    }
+    .social-img{
+        
+    width:15%;
+    margin-left:42%;
+    margin-right:42%;
+    margin-bottom: 2%;
+    }
+}
+@media (max-width:480px){
+   
+    .titlu{
+        font-size: 1.5em;
+    }
+    .menu-item{
+        font-size:0.9em;
+    }
+    .main-img{
+        width:0.1%;
+        margin-right:99.9%;
+    }
+    .img-img{
+        width:0.1%;
+        margin-left:99.9%;
+    }
+    .text-buc{
+        margin-top: 20%;
+        font-size: 0.8em;
+        width:100%;
+    }
+    .leftside{
+        width:100%;
+        font-size: 0.8em;
+        margin-top: 5%;
+    }
+    .rightside{
+        width:0.1%;
+        margin-left:99.9%;
+    }
+    .text1{
+        font-size: 2em;
+        padding-top:20px;
+        padding-bottom: 20px;
+    }
+    .text2{
+        width:100%;
+        font-size: 1.3em;
+        text-align: justify;
+    }
+    .img-elem{
+        width:100%;
+    }
+
+    .text3, .text4{
+        font-size: 1.4em;
+        float:left;
+        width:100%;
+        padding-right:0%;
+        padding-left:0%;
+    }
+    .text41{
+        font-size: 1em;
+    }
+   .text-text{
+        font-size: 1em;
+    }
+    
+    .text5{
+        max-width: 100%;
+        margin-bottom: 10px;
+        font-size: 1.1em;
+    }
+    .social-media{
+        font-size: 1.3em;
+        margin-top: 15%;
+        margin-bottom: 10%;
+    }
+    .social-img{
+        width:40%;
+        margin-left:30%;
+        margin-right:30%;
+    }
+    .footer{
+        font-size:1em;
+    }
+    
+    input{
+        margin-top: 1%;
+        margin-bottom: 1%;
+        width:70%;
+        margin-left: 7%;
+    }
+    button{
+        margin-top: 1%;
+        margin-bottom: 1%;
+        width:15%;
+    }
+    .tendinte-actuale{
+        width:100%;
+    }
+    .container2{
+        width:100%;
+        float:left;
+    }
+    .tend-text{
+        width:100%;
+        float:left;
+        padding: 3%;
+        font-size: 1em;
+    }
+    .stil-text
+    {
+        width:100%;
+        padding-right: 7%;
+    }
+    .img3{
+        width:95%;
+        margin-left:2%;
+        margin-right:2%;
+    }
+    .img2, .img4{
+        width:100%;
+        margin:0%;
+        display: none;
+    }
+
+}
+
+

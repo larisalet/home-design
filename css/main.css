@@ -1,0 +1,294 @@
+*{
+    box-sizing: border-box;
+    color:black;
+}
+body{
+    width:100%;
+    font-family: 'Sitka Banner';
+    margin:0;
+}
+header{
+    position:fixed;
+    width:100%;
+}
+  
+a{
+    text-decoration: none;
+    color:black;
+}
+.titlu{
+    width:100%;
+    margin:auto;
+    font-size: 45px;
+    color:#975E50;
+    text-align: center;
+    background-color: white;
+}
+.menu{
+    width:100%;
+    display: inline-block;
+    background-color: #F1EBE2;
+    text-align: center;
+    padding: 10px;
+}
+.menu-item{
+    padding-left:6px;
+    padding-right:6px;
+}
+
+.menu-item:hover{
+    text-shadow: 2px 2px 5px rgb(92, 92, 92);
+    transition-duration: 0.5s;
+}
+
+.main-img{
+    width:100%;
+    padding-top:4%;
+}
+.leftside{
+    width:60%;
+    padding:3%;
+    padding-left:7%;
+    margin:0;
+    float:left;
+    
+}
+.text1{
+    width:100%;
+    color:#9B6A49;
+    font-size: 2em;
+    font-weight:bold;
+}
+.text2{
+    width:100%;
+    font-size:1.35em;
+    text-align: justify;
+}
+.text-text{
+    width: 86%;
+    margin-left: 7%;
+    margin-right: 5%;
+    font-size:1.35em;
+    text-align: justify;
+    padding:1%;
+}
+.rightside{
+    width:40%;
+    float:left;
+    margin:0;
+    right:0;
+
+}
+.imagini-main{
+    width:100%;
+    padding:2%;
+    padding-left:7%;
+    padding-right:7%;
+}
+.text3{
+    width:100%;
+    color:#9B6A49;
+    font-size: 2em;
+    text-align: center;
+    padding:3%;
+    line-height: 2em;
+}
+.text4{
+    text-align: center;
+    margin: auto;
+    border: 1px solid black;
+    margin-left:43%;
+    margin-right:43%;
+    padding:0.7%;
+    color:black;
+    font-size: 20px;
+    border-radius: 10px;
+    line-height: 1em;
+    
+}
+.text4:hover{
+    background-color: rgb(140, 160, 153);
+    color:white;
+    border-color: rgb(135, 155, 148);
+    transition-duration: 1s;
+    
+}
+.abonare{
+    background-image: url("imagini/main/imgmain3.jpg") ;
+    width:100%;
+    height:500px;
+    background-size:cover;
+    padding: 3%;
+    padding-left:8%;
+   
+}
+.text5{
+    float:left;
+    padding-right: 0%;
+    font-size: 1.5em;
+    font-weight: bold;
+    max-width: 49%;
+}
+
+input{
+    width:40%;
+    margin-left:1% ;
+    padding:0.5%;
+    float:left;
+}
+button{
+    width:10%;
+    margin-left: 2%;
+    margin-right: 2%;
+    float:left;
+    padding: 0.5%;
+   
+}
+.social-media{
+    width:100%;
+    color:#9B6A49;
+    font-size: 1.7em;
+    text-align: center;
+    padding:4%;
+    margin-top:3%;
+    margin-bottom: 3%;
+}
+footer{
+    background-color: rgb(187, 168, 150);
+    color:white;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3%;
+    vertical-align: middle;
+}
+.social-img{
+    width:15%;
+    margin-left:42%;
+    margin-right:42%;
+}
+.img-tel{
+    width:0.1%;
+    margin-left: 99.9%;
+    float:left;
+    display: none;
+}
+.aimg:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+@media (min-width: 481px) and (max-width:768px){
+    .main-img{
+        padding-top:10%;
+
+    }
+    .rightside{
+        margin-bottom:5%;
+    }
+    .text1, .text3{
+        font-size: 1.6em;
+    }
+    .text2, .text-text{
+        font-size: 1em;
+    }
+    .text4{
+        font-size:0.7em;
+        margin-left:40%;
+        margin-right:40%;
+    }
+    .text5{
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    input, button{
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    .abonare{
+        height: 300px;
+    }
+    .social-media{
+        font-size: 1.3em;
+        margin-top: 7%;
+    }
+    .footer{
+        font-size:1em;
+    }
+    .img-tel{
+        width:0.1%;
+        margin-left: 99.9%;
+        float:left;
+    }
+}
+@media (max-width:480px){
+   
+    .titlu{
+        font-size: 1.5em;
+    }
+    .menu-item{
+        font-size:0.9em;
+    }
+    .main-img{
+        width:0.1%;
+        margin-right:99.9%;
+        display: none;
+    }
+    .img-tel{
+        width:100%;
+        margin-left: 0%;
+        margin-top: 10%;
+    }
+    .leftside{
+        width:100%;
+        font-size: 0.8em;
+        margin-top: 5%;
+    }
+    .rightside{
+        width:0.1%;
+        margin-left:99.9%;
+        display: none;
+    }
+    .text3{
+        font-size: 1.3em;
+    }
+   .text-text{
+        font-size: 1em;
+    }
+    .text4{
+        font-size:0.6em;
+        margin-left:35%;
+        margin-right:35%;
+    }
+    .text5{
+        max-width: 100%;
+        margin-bottom: 10px;
+        font-size: 1.1em;
+    }
+    input{
+        margin-top: 1%;
+        margin-bottom: 1%;
+        width:70%;
+    }
+    button{
+        margin-top: 1%;
+        margin-bottom: 1%;
+        width:15%;
+    }
+    .abonare{
+        height: 170px;
+    }
+    .social-media{
+        font-size: 1.3em;
+        margin-top: 15%;
+        margin-bottom: 10%;
+    }
+    .social-img{
+        width:40%;
+        margin-left:30%;
+        margin-right:30%;
+    }
+    .footer{
+        font-size:8px;
+    }
+   
+
+}

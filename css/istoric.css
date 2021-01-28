@@ -1,0 +1,291 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    font-family: 'Sitka Banner';
+    margin:0;
+}
+header{
+    position:fixed;
+    width:100%;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+.titlu{
+    width:100%;
+    margin:auto;
+    font-size: 45px;
+    color:#975E50;
+    text-align: center;
+    background-color: white;
+}
+
+.titlu:hover{
+    
+    text-shadow: 2px 2px 5px rgb(153, 120, 98);
+    transition-duration: 0.5s;
+
+}
+.menu{
+    width:100%;
+    display: inline-block;
+    background-color: #F1EBE2;
+    text-align: center;
+    padding: 10px;
+}
+.menu-item{
+    padding-left:6px;
+    padding-right:6px;
+}
+
+.menu-item:hover{
+    text-shadow: 2px 2px 5px rgb(92, 92, 92);
+    transition-duration: 0.5s;
+}
+.main-img{
+    width:100%;
+    padding-top:4%;
+}
+.text-istoric{
+    width:100%;
+    padding:2%;
+    padding-left:7%;
+    padding-right:7%;
+    margin:0;
+    
+}
+.text1{
+    width:100%;
+    color:#9B6A49;
+    font-size: 3em;
+    font-weight:bold;
+}
+.text2{
+    width:100%;
+    font-size:1.35em;
+    text-align: justify;
+}
+
+.img-istoric{
+    width:86%;
+    margin:2%;
+    margin-left:7%;
+    margin-left:7%;
+    background-color: #ECE7E3;
+}
+.img-istoric2{
+    width:86%;
+    margin:2%;
+    margin-left:7%;
+    margin-left:7%;
+    background-color: #E3DAD0;
+}
+
+.text3{
+    width:50%;
+    padding:10%;
+    font-size: 1.4em;
+    float:left;
+    text-align: justify;
+}
+.text4{
+    width:50%;
+    padding:10%;
+    font-size: 1.4em;
+    float:right;
+    text-align: justify;
+}
+.abonare{
+    /* background-image: url("imagini/main/imgmain3.png"); */
+    width:100%;
+    height:150px;
+    /* background-position:relative;
+    background-size:cover; */
+    padding: 3%;
+    padding-top: 4%;
+    float:left;
+}
+.social-img{
+    width:15%;
+    margin-left:42%;
+    margin-right:42%;
+    margin-bottom: 2%;
+}
+.text5{
+    padding-right: 0%;
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 49%;
+    text-align: center;
+    margin:auto;
+}
+
+input{
+    width:30%;
+    margin-left:31.3% ;
+    padding:0.5%;
+    float: left;
+    
+}
+button{
+    width:6%;
+    margin-left: 1%;
+    margin-right: 2%;
+    float:left;
+    padding: 0.5%;
+   
+}
+
+.social-media{
+    width:100%;
+    color:#9B6A49;
+    font-size: 1.7em;
+    text-align: center;
+    padding:4%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+footer{
+    background-color: rgb(187, 168, 150);
+    color:white;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3%;
+    vertical-align: middle;
+}
+.img-istoric3{
+    width: 50%;
+}
+.aimg:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+
+}
+
+@media (min-width: 481px) and (max-width:768px){
+    .main-img{
+        padding-top:10%;
+
+    }
+    .rightside{
+        margin-bottom:5%;
+    }
+    .text1{
+        font-size: 1.6em;
+    }
+    .text3{
+        font-size:0.8em;
+    }
+    .text2, .text-text{
+        font-size: 1em;
+    }
+    .text4{
+        font-size:0.8em;
+        float:right;
+        width:50%;
+    }
+    .text5{
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    .social-media{
+        font-size: 1.3em;
+        margin-top: 7%;
+    }
+    .footer{
+        font-size:1em;
+        padding: 0%;
+    }
+    
+    button{
+        margin-bottom: 1%;
+        width:13%;
+    }
+    .img-istoric3{
+        width: 50%;
+    }
+}
+@media (max-width:480px){
+   
+    .titlu{
+        font-size: 1.5em;
+    }
+    .menu-item{
+        font-size:0.9em;
+    }
+    .main-img{
+        width:0.1%;
+        margin-right:99.9%;
+    }
+    .text-istoric{
+        margin-top: 10%;
+        font-size: 0.8em;
+        width:100%;
+    }
+    .leftside{
+        width:100%;
+        font-size: 0.8em;
+        margin-top: 5%;
+    }
+    .rightside{
+        width:0.1%;
+        margin-left:99.9%;
+    }
+    .text1{
+        font-size: 2em;
+        padding-top:20px;
+        padding-bottom: 20px;
+    }
+    .text2{
+        width:100%;
+        font-size: 1.3em;
+    }
+    .img-istoric3{
+        width:100%;
+    }
+
+    .text3, .text4{
+        font-size: 1em;
+        float:none;
+        width:100%;
+    }
+   .text-text{
+        font-size: 1em;
+    }
+    
+    .text5{
+        max-width: 100%;
+        margin-bottom: 10px;
+        font-size: 1.1em;
+    }
+    .social-media{
+        font-size: 1.3em;
+        margin-top: 15%;
+        margin-bottom: 10%;
+    }
+    .social-img{
+        width:4,0%;
+        margin-left:30%;
+        margin-right:30%;
+    }
+    .footer{
+        font-size:1em;
+    }
+    
+    input{
+        margin-top: 1%;
+        margin-bottom: 1%;
+        width:70%;
+        margin-left: 7%;
+    }
+    button{
+        margin-top: 1%;
+        margin-bottom: 1%;
+        width:15%;
+    }
+  
+}
